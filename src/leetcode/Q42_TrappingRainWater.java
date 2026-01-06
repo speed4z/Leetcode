@@ -27,6 +27,7 @@ public class Q42_TrappingRainWater {
 
 
     //SOLUTION
+    //APPROACH:- L2R and R2L iteration
     public int trap(int[] height) {
         int n = height.length;
         int leftMax = height[0], rightMax = height[n-1], ans = 0;
